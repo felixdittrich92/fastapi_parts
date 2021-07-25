@@ -1,0 +1,4 @@
+create model.py from json file
+
+pip3 install datamodel-code-generator
+datamodel-codegen  --input /home/felix/Desktop/Python3/test.json --input-file-type json --output model.py

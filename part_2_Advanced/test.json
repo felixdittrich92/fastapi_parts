@@ -1,0 +1,108 @@
+{
+    "order_details": {
+        "order_id": "cgxg",
+        "order_datetime": "218-ysdxc-cfg",
+        "order_shipping_price_gross": null,
+        "order_additional_information": "additional information"
+    },
+    "patient_details": [
+        {
+            "patient_id": 0,
+            "gender": "",
+            "firstname": "",
+            "lastname": "",
+            "email": "",
+            "phone": "",
+            "date_of_birth": "",
+            "insurance_name": "",
+            "insurance_identifier": "",
+            "patient_insurance_number": "",
+            "exempt_from_additional_charges": false
+        }
+    ],
+    "customer_details": {
+        "gender": "male",
+        "firstname": "Max",
+        "lastname": "Mustermann",
+        "email": "test@xyz.de",
+        "phone": "+11111111111",
+        "date_of_birth": "1980-05-11"
+    },
+    "delivery_address": {
+        "gender": "male",
+        "firstname": "Max",
+        "lastname": "Mustermann",
+        "company": "xyz gmbh",
+        "street_name": "Amselweg",
+        "street_number": "38 c",
+        "city": "Dortmund",
+        "postcode": "01234",
+        "country": "Deutschland",
+        "country_iso_code": "DE",
+        "additional_address_information": "additional information"
+    },
+    "billing_address": {
+        "gender": "male",
+        "firstname": "Max",
+        "lastname": "Mustermann",
+        "company": "xyz gmbh",
+        "street_name": "Amselweg",
+        "street_number": "38 c",
+        "city": "Dortmund",
+        "postcode": "01234",
+        "country": "Deutschland",
+        "country_iso_code": "DE",
+        "additional_address_information": "additional information"
+    },
+    "nursing_home_address": {
+        "nursing_home_number": "",
+        "company": "",
+        "email": "",
+        "phone": "",
+        "street_name": "",
+        "street_number": "",
+        "city": "",
+        "postcode": "",
+        "country": "",
+        "country_iso_code": "",
+        "additional_address_information": ""
+    },
+    "products": [
+        {
+            "pzn": "",
+            "ntin": "null",
+            "name": "null",
+            "total_quantity": "null",
+            "patients_products_details": [
+                {
+                    "patient_id": "null",
+                    "prescription_id": "null",
+                    "product_token": "null",
+                    "quantity": 1,
+                    "additional_payment": false,
+                    "additional_payment_amount_net": 2.45,
+                    "aut_idem": false
+                }
+            ],
+            "unit_price_net": 8.4,
+            "tax_rate": 2.45
+        }],
+    "prescriptions": [
+        {
+            "prescription_id": "80ggd-fhfhgf45-dfgdgd4",
+            "prescription_token": "string",
+            "prescription_type": "fgd",
+            "prescription": "string",
+            "format": null,
+            "mime_type": "string",
+            "permanent_establishment_number": null,
+            "doctor_number": null,
+            "date_of_exhibition": null,
+            "recognition_rates": {
+                "products": 0.0,
+                "patient_details": 0.0,
+                "prescription": 0.0
+            }
+        }
+    ]
+}
